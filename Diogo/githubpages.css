@@ -1,0 +1,150 @@
+
+
+/* tentei fazer um div geral para adm todas */
+.principal{
+    width: 100%;
+    max-width: 900px;
+    position: absolute;
+    max-width: 100%;
+
+}
+
+/* para mexer com o titulo e o fundo amarelo do titulo */
+.container-topo{
+    position: relative;
+    width:98%;
+    height: 165px;
+    left: 0px;
+    top: 0px;
+    background: #FFB444;
+}
+
+/* texto do titulo */
+.container-topo #texto-head{
+    position: relative;
+    
+    height: webkit-calc(100% - 100px);
+    left: 92px;
+    top: 52px;
+
+    font-family: Advent Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #000000;;
+
+}
+
+/* container COMO FUNCIONA */
+.container-comofunciona{
+
+    width: -webkit-calc(100% - 100px);
+    max-width: 900px;
+    position: relative;
+    height: 819px;
+    left: 80px;
+    top: 240px;
+    background: #F1F1F1;
+    
+}
+
+
+/*COntainer COMOCRIAR */
+.container-comocriar{
+
+    position: absolute;
+    width: -webkit-calc(100% - 100px);
+    max-width: 900px;
+    height: 1551px;
+    left: 76px;
+    top: 1145px;
+    background: #F1F1F1;
+
+
+
+}
+
+
+/*A caixa onde vamos colocar a imagem dos comandos como exemplo */
+.container-comandos{
+    position: absolute;
+    width: -webkit-calc(100% - 100px);
+    max-width: 800px;
+    height: 554px;
+    left: 179px;
+    top: 2035px;
+    box-sizing: border-box;
+    background: #C4C4C4;
+
+
+}
+
+
+
+
+
+
+/*COntainer ACESSAR PAGINA */
+.container-acessapagina{
+    position: absolute;
+    width: 100%;
+    max-width: 900px;
+    height: 1389px;
+    left: 76px;
+    top: 2784px;
+    
+    background: #F1F1F1;
+
+}
+
+
+/*A caixa onde vamos colocar a imagem dos comandos como exemplo */
+.container-comandos2{
+    position: absolute;
+    width: 82%;
+    max-width: 800px;
+    height: 469px;
+    left: 179px;
+    top: 3625px;
+    
+    background: #C4C4C4;
+    box-sizing: border-box;
+
+}
+
+
+/* Linha que esta em amarelo, nos nomes */
+
+#linha{
+    position: absolute;
+    width: 250px;
+    height: 0px;
+    left: 0px;
+    
+
+    border: 4px solid #FFB444;
+    transform: rotate(-0.24deg);
+}
+
+
+/*Textos dentro dos COntainers */
+
+#texto-container{
+    position: absolute;
+    width: 247px;
+    height: 43px;
+    left: 20px;
+    top: 20px;
+
+    font-family: Advent Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+
+
+}
