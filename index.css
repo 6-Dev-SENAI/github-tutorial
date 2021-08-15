@@ -10,6 +10,17 @@ body {
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  width: 0.8em;
+}
+*::-webkit-scrollbar-track {
+  background-color: #e6e6e6;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(158, 158, 158, 0.5);
+  border-radius: 0.2em;
+}
+
 .cabecalho {
   height: 15vh;
   width: 100%;
@@ -19,86 +30,156 @@ body {
 }
 
 .cabecalho p {
-    margin: 0%;
-    padding: 0%;
-    font-size: 50px;
-    font-weight: 700;
-    font-style: normal;
+  margin: 0%;
+  padding: 0%;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .conteudo {
-    width: 100%;
-    min-height: 85vh;
+  width: 100%;
+  min-height: 85vh;
 
-    padding: 20px;
+  padding: 20px;
 }
 
-.git {
-    background-color: #F1F1F1;
-    padding: 20px;
+.container-content {
+  background-color: #f1f1f1;
+  padding: 20px;
+
+  margin-bottom: 20px;
+}
+
+.titulo-container {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.titulo-container p {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+
+  margin: 0%;
+  padding: 0%;
 }
 
 .titulo-git {
-    width: 100%;
-    margin-bottom: 15px;
+  text-decoration: underline;
+  text-decoration-color: #7dffb1;
 }
 
-.titulo-git p {
-    font-weight: 700;
-    font-style: normal;
-    font-size: 35px;
+.titulo-github {
+  text-decoration: underline;
+  text-decoration-color: #ffff81;
+}
 
-    margin: 0%;
-    padding: 0%;
-    text-decoration: underline;
-    text-decoration-color: #7DFFB1;
+.titulo-github-pages {
+  text-decoration: underline;
+  text-decoration-color: #ffb444;
 }
 
 .paragrafo {
-    width: 100%;
-
+  width: 100%;
 }
 
 .paragrafo p {
-    font-weight: 300;
-    font-size: 25px;
-    font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  font-style: normal;
 }
 
 .paragrafo1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .paragrafo1 p {
-    width: 50%;
+  width: 50%;
 }
 
 .paragrafo1 img {
-    width: 50%;
-    border-radius: 5px;
+  width: 50%;
+  border-radius: 5px;
 }
 
 .paragrafo2 p {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .paragrafo2 p:nth-child(2) {
-    width: 80%;
+  width: 80%;
 }
 
 .git-btn {
-    position: absolute;
-    bottom: -7%;
-    left: 85%;
+  position: absolute;
+  bottom: -7%;
+  left: 85%;
 
-    border-radius: 100%;
-    height: 140px;
-    width: 140px;
-    background-color: #7DFFB1;
+  border-radius: 100%;
+  height: 140px;
+  width: 140px;
+  background-color: #7dffb1;
 
-    border: none;
+  border: none;
+  font-size: 20px !important;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 24px;
+
+  color: black;
+}
+
+.git-hub-pages {
+  background-color: #f1f1f1;
+}
+
+.paragrafo3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragrafo3 p {
+  width: 50%;
+}
+
+.paragrafo3 img {
+  width: 50%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.paragrafo2 p:nth-child(2) {
+  width: 80%;
+}
+
+.paragrafo4 {
+  margin-bottom: 5px;
+}
+
+.github-pages-btn {
+  position: relative;
+  margin: 5px 0px 5px 0px;
+  height: 90px;
+  width: 190px;
+  background-color: #ffb444;
+  border: none;
+
+  left: 85%;
+  font-weight: 700;
+  font-size: 24px;
 }
