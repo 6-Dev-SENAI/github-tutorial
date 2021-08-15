@@ -1,0 +1,4 @@
+
+O que é GitHub Pages:
+
+O GitHub Pages é um serviço gratuitode hospedagem de sites  estátcos( são aqueles que são fixos e exibem o mesmo conteúdo para cada usuário) que utilizam HTML, CSS e JavaScript.

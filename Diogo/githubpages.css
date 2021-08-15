@@ -1,105 +1,132 @@
-body {
-  margin: 0%;
-  padding: 0%;
+*{
+    box-sizing: border-box;
 }
 
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
+
+body{
+    margin: 0;
 }
 
 /* tentei fazer um div geral para adm todas */
-.principal {
-  width: 100%;
-  max-width: 900px;
-  max-width: 100%;
+.principal{
+    width: 100%;
+
+
 }
 
 /* para mexer com o titulo e o fundo amarelo do titulo */
-.container-topo {
-  width: 100%;
-  height: 165px;
-  background: #ffb444;
+.container-topo{
+    padding: 2em;
+    background: #FFB444;
 }
 
 /* texto do titulo */
-.container-topo #texto-head {
-  height: webkit-calc(100% - 100px);
+.container-topo #texto-head{
+    text-align: center;
+    color: #000000;;
 
-  font-family: Advent Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 60px;
-
-  color: #000000;
 }
 
 /* container COMO FUNCIONA */
-.container-comofunciona {
-  width: -webkit-calc(100% - 100px);
-  max-width: 900px;
-  height: 819px;
-  background: #f1f1f1;
+.container-comofunciona{
+    margin-left: 50px;
+    height: 800px;
+    background: #F1F1F1;
+    
 }
+
 
 /*COntainer COMOCRIAR */
-.container-comocriar {
-  width: -webkit-calc(100% - 100px);
-  max-width: 900px;
-  height: 1551px;
-  background: #f1f1f1;
+.container-comocriar{
+    height: 1700px;
+    margin-left: 50px;
+    background: #F1F1F1;
+
+
+
+}
+
+
+/*A caixa onde vamos colocar a imagem dos comandos como exemplo */
+.container-comandos{
+    margin-left: 50px;
+    height: 100px;
+    width: 800px;
+    box-sizing: border-box;
+    background: #C4C4C4;
+
+
 }
 
 /*A caixa onde vamos colocar a imagem dos comandos como exemplo */
-.container-comandos {
-  width: -webkit-calc(100% - 100px);
-  max-width: 800px;
-  height: 554px;
-  box-sizing: border-box;
-  background: #c4c4c4;
+.container-comandos2{
+    
+    width: 800px;
+    background: #C4C4C4;
+    box-sizing: border-box;
+
 }
+
+
+
+
 
 /*COntainer ACESSAR PAGINA */
-.container-acessapagina {
-  width: 100%;
-  max-width: 900px;
-  height: 1389px;
+.container-acessapagina{
+    height: 1700px;
+    margin-left: 50px;
+    background: #F1F1F1;
 
-  background: #f1f1f1;
 }
 
-/*A caixa onde vamos colocar a imagem dos comandos como exemplo */
-.container-comandos2 {
-  width: 82%;
-  max-width: 800px;
-  height: 469px;
 
-  background: #c4c4c4;
-  box-sizing: border-box;
-}
+
 
 /* Linha que esta em amarelo, nos nomes */
 
-#linha {
-  width: 250px;
-  height: 0px;
 
-  border: 4px solid #ffb444;
-  transform: rotate(-0.24deg);
-}
 
 /*Textos dentro dos COntainers */
 
-#texto-container {
-  width: 247px;
-  height: 43px;
-  font-family: Advent Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 42px;
+#texto-container{
+    text-decoration: underline;
+    text-decoration-color:#FFB444;
+    text-decoration-thickness: 0.3em;
+    font-family: 'Advent Pro', sans-serif;
+    width: 247px;
+    height: 43px;
+    left: 20px;
+    top: 20px;
 
-  color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 42px;
+
+    color: #000000;
+
+
+}
+
+#espacamento{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.2em;
+    padding-top: 2em;
+    padding-left: 5em;
+
+}
+
+
+#index{
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:#FFB444;
+    text-decoration-thickness: 0.3em;
+    font-family: 'Advent Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 42px;
+    padding-left: 15em;
 }
