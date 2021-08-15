@@ -73,6 +73,10 @@ body {
 .titulo-github {
   text-decoration: underline;
   text-decoration-color: #ffff81;
+
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .titulo-github-pages {
@@ -158,13 +162,14 @@ body {
 }
 
 .paragrafo3 img {
-  width: 50%;
+  width: 47%;
+  margin-right: 3%;
   border-radius: 5px;
   margin-bottom: 15px;
 }
 
-.paragrafo2 p:nth-child(2) {
-  width: 80%;
+.paragrafo4 p:nth-child(1) {
+  margin-bottom: 15px;
 }
 
 .paragrafo4 {
@@ -182,4 +187,13 @@ body {
   left: 85%;
   font-weight: 700;
   font-size: 24px;
+}
+
+.git-hub-btn {
+  width: fit-content;
+  background-color: #FFFF81;
+
+    height: 90px;
+  width: 190px;
+  border: none;
 }
