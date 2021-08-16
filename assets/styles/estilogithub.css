@@ -1,95 +1,117 @@
-div.p1{
-    
-    background-color: #FFFF81;   
-    width: 1368px;
-    height: 165px;
-    margin-top: -20px;
-    margin-left: -20px;
-    font-size: 56px;
-    font-weight: 145px;
-    padding-top: 55px;
-    padding-left: 96px;
-    text-align: left;
-    
+body {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
 
-
-div.p2{
-    position: relative;
-    top: 51px;
-    left: 96px;
-    width: 1208px;
-    height: 1265px;
-    background-color: #F1F1F1;
-    
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Advent Pro", sans-serif;
 }
 
-div.p3{
-    text-decoration: underline;
-    text-decoration-color: #FFFF81;
-    position: relative;
-    top: 49px;
-    left: 26px;
-    font-weight: 93px;
-    font-size: 37px;
-
+*::-webkit-scrollbar {
+  width: 0.8em;
 }
-div.p4{
-    text-align: justify;
-    font-size: 28px;
-    position: relative;
-    top: 43px;
-    left: 119px;
-    width: 1090px;
-    height: 113px;
-   
+*::-webkit-scrollbar-track {
+  background-color: #e6e6e6;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(158, 158, 158, 0.5);
+  border-radius: 0.2em;
 }
 
-div.p5{
-    padding-left: 15px;
+@font-face {
+  font-family: Regular;
+  src: url(../../assets/fonts/AdventPro-Regular.ttf);
 }
-div.p6{
-    padding-left: 15px;
-}
-div.p7{
-    padding-top: 590px;
-    padding-left: 107px;
+@font-face {
+  font-family: Negrito;
+  src: url(../../assets/fonts/AdventPro-Bold.ttf);
 }
 
-div.p8{
-    width: 1208px;
-    height: 970px;
-    background-color: #F1F1F1;
-    margin-top: 76px;
-    margin-left: 96px;
-    margin-bottom: 50px;
+.cabecalho {
+  height: 15vh;
+  width: 100%;
+  background-color: #ffff81;
+
+  padding: 20px 0px 20px 15px;
 }
 
+.cabecalho p {
+  margin: 0%;
+  padding: 0%;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+}
 
-div.p9{
-    text-decoration: underline;
-    text-decoration-color: #FFFF81;
-    position: relative;
-    top: 49px;
-    left: 26px;
-    font-weight: 93px;
-    font-size: 37px;
+.container {
+  width: 100%;
+  min-height: 85vh;
 
+  padding: 20px;
 }
-div.p10{
-    text-align: justify;
-    font-size: 28px;
-    position: relative;
-    top: 43px;
-    left: 119px;
-    width: 1090px;
-    height: 113px;
-   
+
+ol {
+  padding: 20px;
 }
-div.p11{
-    padding-left: 15px;
+
+.titulo {
+  font-size: 2em;
 }
-div.p12{
-    padding-top: 300px;
-    padding-left: 107px;
+
+div.p2 {
+  background-color: #f1f1f1;
+  padding: 20px;
+
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+div.p3 {
+  background-color: #f1f1f1;
+  padding: 20px;
+
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.titulo {
+  text-decoration: underline;
+  text-decoration-color: #ffff81;
+  margin-bottom: 15px;
+}
+
+.conteudo img {
+  margin: auto;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: black;
+  padding: 2em;
+  font-family: "Advent Pro", sans-serif;
+}
+.fim {
+  color: blanchedalmond;
+  font-family: Negrito;
+  text-align: center;
+}
+
+#index {
+  color: #000000;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #ffff81;
+  text-decoration-thickness: 0.2em;
+  font-family: "Advent Pro", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 42px;
+
+  position: relative;
+  left: 95%;
 }

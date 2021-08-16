@@ -7,6 +7,17 @@ body {
   font-family: "Advent Pro", sans-serif;
 }
 
+*::-webkit-scrollbar {
+  width: 0.8em;
+}
+*::-webkit-scrollbar-track {
+  background-color: #e6e6e6;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(158, 158, 158, 0.5);
+  border-radius: 0.2em;
+}
+
 @font-face {
   font-family: Regular;
   src: url(../../assets/fonts/AdventPro-Regular.ttf);
@@ -85,9 +96,6 @@ body {
 }
 .imagemp3 {
   text-align: center;
-}
-
-.imagemp3 img {
 }
 
 .confititulo {
@@ -175,9 +183,26 @@ span.remote {
 footer {
   background-color: black;
   padding: 2em;
+  font-family: "Advent Pro", sans-serif;
 }
 .fim {
   color: blanchedalmond;
   font-family: Negrito;
   text-align: center;
+}
+
+#index {
+  color: #000000;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #7dffb1;
+  text-decoration-thickness: 0.2em;
+  font-family: "Advent Pro", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 42px;
+
+  position: relative;
+  left: 95%;
 }
