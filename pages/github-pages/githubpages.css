@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  font-family: "Advent Pro", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 0.8em;
+}
+*::-webkit-scrollbar-track {
+  background-color: #e6e6e6;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(158, 158, 158, 0.5);
+  border-radius: 0.2em;
+}
+
+@font-face {
+  font-family: Regular;
+  src: url(../../assets/fonts/AdventPro-Regular.ttf);
+}
+@font-face {
+  font-family: Negrito;
+  src: url(../../assets/fonts/AdventPro-Bold.ttf);
+}
+
+/* tentei fazer um div geral para adm todas */
+.principal {
+  width: 100%;
+  min-height: 85vh;
+
+  padding: 20px;
+}
+
+/* para mexer com o titulo e o fundo amarelo do titulo */
+.container-topo {
+  height: 15vh;
+  width: 100%;
+  background-color: #ffb444;
+
+  padding: 20px 0px 20px 15px;
+}
+
+.container-topo p {
+  margin: 0%;
+  padding: 0%;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* container COMO FUNCIONA */
+.container-comofunciona {
+  background-color: #f1f1f1;
+  padding: 20px;
+
+  margin-bottom: 20px;
+}
+
+/*COntainer COMOCRIAR */
+.container-comocriar {
+  background-color: #f1f1f1;
+  padding: 20px;
+
+  margin-bottom: 20px;
+}
+
+.container-comocriar p {
+  margin-bottom: 5px;
+}
+
+.container-comocriar p img {
+  margin-bottom: 10px;
+}
+
+/*A caixa onde vamos colocar a imagem dos comandos como exemplo */
+.container-comandos {
+  height: 100px;
+  width: 800px;
+  box-sizing: border-box;
+  background: #c4c4c4;
+}
+
+/*A caixa onde vamos colocar a imagem dos comandos como exemplo */
+.container-comandos2 {
+  width: 800px;
+  background: #c4c4c4;
+  box-sizing: border-box;
+}
+
+/*COntainer ACESSAR PAGINA */
+.container-acessapagina {
+  background-color: #f1f1f1;
+  padding: 20px;
+
+  margin-bottom: 20px;
+}
+
+.container-acessapagina p {
+  margin-bottom: 5px;
+}
+
+.container-acessapagina p img {
+  margin-bottom: 10px;
+}
+
+/* Linha que esta em amarelo, nos nomes */
+
+/*Textos dentro dos COntainers */
+
+#texto-container {
+  text-decoration: underline;
+  text-decoration-color: #ffb444;
+  /* text-decoration-thickness: 0.3em; */
+  font-family: "Advent Pro", sans-serif;
+  width: 247px;
+  height: 43px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 42px;
+
+  margin: 0%;
+
+  color: #000000;
+}
+
+#espacamento {
+  font-family: "Advent Pro", sans-serif;
+  font-size: 1.2em;
+  margin: 0%;
+}
+
+#index {
+  color: #000000;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #ffb444;
+  text-decoration-thickness: 0.2em;
+  font-family: "Advent Pro", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 42px;
+
+  position: relative;
+  left: 95%;
+}
+
+footer {
+  background-color: black;
+  padding: 2em;
+  font-family: "Advent Pro", sans-serif;
+}
+
+.fim {
+  color: blanchedalmond;
+  font-family: Negrito;
+  text-align: center;
+}
+
+.img-margin {
+  margin-top: 18px;
+}
