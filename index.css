@@ -15,6 +15,7 @@ body {
   font-family: Regular;
   src: url(../../assets/fonts/AdventPro-Regular.ttf);
 }
+
 @font-face {
   font-family: Negrito;
   src: url(../../assets/fonts/AdventPro-Bold.ttf);
@@ -197,15 +198,19 @@ body {
   left: 85%;
   font-weight: 700;
   font-size: 1.2em;
+
+  border-radius: 5px;
 }
 
 .git-hub-btn {
   width: fit-content;
   background-color: #ffff81;
 
-  height: 70px;
-  width: 170px;
+  height: 90px;
+  width: 90px;
   border: none;
+
+  border-radius: 5px;
 }
 
 footer {
