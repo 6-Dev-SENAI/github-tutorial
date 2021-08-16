@@ -198,3 +198,13 @@ body {
   width: 190px;
   border: none;
 }
+
+footer {
+  background-color: black;
+  padding: 2em;
+}
+.fim {
+  color: blanchedalmond;
+  font-family: Negrito;
+  text-align: center;
+}

@@ -1,121 +1,456 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./git.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./git.css" />
     <title>Git</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="topo">
-        <p>Git</p>
+      <p>Git</p>
     </div>
     <div class="container">
-
+      <div class="area">
         <div class="titulo">O que é o Git</div>
         <div class="box-texto">
-            <div class="desc">O Git é um sistema de controle de versão open-source, ou seja, ele é gratuito. Ele é
-                utilizado para a
-                criação de um histórico de alterações em código-fonte de projetos de desenvolvimento de software. Foi
-                desenvolvido por Linus Torvalds, o criador do sistema operacional Linux. O Git é a melhor escolha para a
-                maioria das equipes de software. Por meio de sua utilização, podemos saber quais foram as alterações
-                realizadas, quem fez cada uma das alterações e baixar essas mudanças em nossa máquina. Se necessário,
-                revertê-las para uma versão anterior. Com isso nos ajuda muito a controlar o fluxo de novas
-                funcionalidades entre vários desenvolvedores no mesmo projeto com ferramentas para análise e resolução
-                de conflitos quando o mesmo arquivo é editado por mais de uma pessoa em funcionalidades diferentes.
-            </div>
+          <div class="desc">
+            O Git é um sistema de controle de versão open-source, ou seja, ele é
+            gratuito. Ele é utilizado para a criação de um histórico de
+            alterações em código-fonte de projetos de desenvolvimento de
+            software. Foi desenvolvido por Linus Torvalds, o criador do sistema
+            operacional Linux. O Git é a melhor escolha para a maioria das
+            equipes de software. Por meio de sua utilização, podemos saber quais
+            foram as alterações realizadas, quem fez cada uma das alterações e
+            baixar essas mudanças em nossa máquina. Se necessário, revertê-las
+            para uma versão anterior. Com isso nos ajuda muito a controlar o
+            fluxo de novas funcionalidades entre vários desenvolvedores no mesmo
+            projeto com ferramentas para análise e resolução de conflitos quando
+            o mesmo arquivo é editado por mais de uma pessoa em funcionalidades
+            diferentes.
+          </div>
         </div>
+      </div>
+      <div class="area">
         <div class="titulo">A importãncia da Utilização do Git</div>
         <div class="box-texto">
-            <div>• Trabalho de Equipe: Você trabalha com mais duas pessoas da área de programação em um projeto, fez
-                algumas alterações no código na sua máquina, criando uma funcionalidade para o sistema, e quer
-                compartilhá-la com seus colegas. Como você faria isso?</div>
-            <div>• Dados mais seguros: Você trabalhou durante duas semanas em uma função nova para o programa e, quando
-                chega ao trabalho, sua máquina sofre uma pane e apaga o disco. Como você recupera seu trabalho?
-            </div>
-            <div>• Gestão de mudanças: Você fez algumas alterações no código e elas foram publicadas, porém, o sistema
-                teve um comportamento estranho e acabou apresentando erros. Como você retorna para a versão anterior?
-                Com o Git isso é possível
-            </div>
+          <div>
+            • Trabalho de Equipe: Você trabalha com mais duas pessoas da área de
+            programação em um projeto, fez algumas alterações no código na sua
+            máquina, criando uma funcionalidade para o sistema, e quer
+            compartilhá-la com seus colegas. Como você faria isso?
+          </div>
+          <div>
+            • Dados mais seguros: Você trabalhou durante duas semanas em uma
+            função nova para o programa e, quando chega ao trabalho, sua máquina
+            sofre uma pane e apaga o disco. Como você recupera seu trabalho?
+          </div>
+          <div>
+            • Gestão de mudanças: Você fez algumas alterações no código e elas
+            foram publicadas, porém, o sistema teve um comportamento estranho e
+            acabou apresentando erros. Como você retorna para a versão anterior?
+            Com o Git isso é possível
+          </div>
         </div>
-
+      </div>
+      <div class="area">
         <div class="titulo">Como instalar o Git</div>
         <div class="box-texto">
-            <div>Basta acessar o site oficial de download do instalador do GIT <a
-                    href="https://git-scm.com/downloads">(LINK
-                    DO SITE)</a> para o
-                sistema operacional seu do PC (Windowns, Linox, Unix, MacOS).
-            </div>
-            <div>1. Depois de baixado, clique duas vezes no arquivo para iniciar o assistente de instalação</div>
-            <div>2. Basta seguir as instruções na tela,
-                clicando em Next. Ao término, clique em Finish para concluir a instalação.</div>
+          <div>
+            Basta acessar o site oficial de download do instalador do GIT
+            <a href="https://git-scm.com/downloads">(LINK DO SITE)</a> para o
+            sistema operacional seu do PC (Windowns, Linox, Unix, MacOS).
+          </div>
+          <div>
+            1. Depois de baixado, clique duas vezes no arquivo para iniciar o
+            assistente de instalação
+          </div>
+          <div>
+            2. Basta seguir as instruções na tela, clicando em Next. Ao término,
+            clique em Finish para concluir a instalação.
+          </div>
         </div>
 
-        <div class="imagem"><img src="../../assets/images/gitsite.PNG" alt=""></div>
+        <div class="imagem">
+          <img src="../../assets/images/gitsite.PNG" alt="" />
+        </div>
+      </div>
 
-
-
+      <div class="area">
         <div class="configgit">
-            <div class="confititulo">Como configurar o Git Localmente</div>
-            <div class="textoconfig"> COLOCAR TEXTO AQUI</div>
-            <div class="imgtxtconfig"><img src="../../assets/images/temp.png" alt=""></div>
+          <div class="confititulo">Como configurar o Git Localmente</div>
+          <div class="textoconfig">
+            <p>
+              Para configurar o git localmente, será necessário ter a sua conta
+              no github!
+              <br />
+              Para prosseguir, abra o terminal de comando (o CMD) e escreva, com
+              o git já instalado na sua máquina:
+            </p>
+            <div class="code">
+              <p>
+                <span>$</span> <span class="git">git</span> config
+                <span class="global">--global</span> user.name "<
+                seu_nome_no_git_hub >"
+              </p>
+            </div>
+            <p>
+              Pressione < Enter >, assim você já define o seu usuário no git
+              local e já precisamos configurar o e-mail
+            </p>
+            <div class="code">
+              <p>
+                <span>$</span> <span class="git">git</span> config
+                <span class="global">--global</span> user.mail "<
+                seu_email_no_git_hub >"
+              </p>
+            </div>
+            <p>
+              Pressione < Enter >, assim você já configurou seu e-mail do git
+              localmente!
+            </p>
+            <p>
+              Pronto, agora o grande segredo vem aqui:
+              <br />
+              A próxima vez que der git push em algum repositório, ele pedirá a
+              sua senha ou terá que configurar a sua senha traves do token de
+              github
+              <br />
+              Ambas as maneiras são simples, basta seguir o passo a passo que o
+              próprio git mostrará!
+            </p>
+          </div>
         </div>
-
+      </div>
+      <div class="area">
         <div class="comandos">
-
-            <div class="titulocomando">Comandos</div>
-            <div class="comando1">
-                <div class="descricao1">1. Colocar texto.</div>
-                <div class="descricao1img"><img src="../../assets/images/temp.png" alt=""></div>
+          <div class="titulocomando">Comandos</div>
+          <hr />
+          <div class="comando1">
+            <div class="descricao1">
+              <div class="code">
+                <span>$</span> <span class="git">git</span> clone < link > |
+                <span>$</span> <span class="git">git</span> init ->
+                <span>$</span> <span class="git">git</span> remote add origin <
+                link_clone >
+              </div>
             </div>
-
-            <div class="comando1">
-                <div class="descricao1">2. Colocar texto</div>
-                <div class="descricao1img"><img src="../../assets/images/temp.png" alt=""></div>
+            <div class="command-desc">
+              <p>
+                Com esse comando você dá um clone no seu repositório online,
+                fazendo assim com que todos os arquivos que estão lá venham para
+                sua máquina
+              </p>
+              <p>
+                Caso prefira usar o <strong>git init</strong>, mais pra frente
+                você precisará usar o <strong>git remote add origin < link_clone ></strong>
+                <br />
+                O <strong>git init</strong> inicia um repositório localmente, na
+                sua máquina, para então subir à um repositório online!
+                <br />
+                Para a próxima etapa, será necessário criar um repositório no
+                GitHub, para pegar o link do repositório remoto
+              </p>
+              <p>
+                Assim que criado, siga os procedimentos de 
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> add remote origin < link_clone >
+                </div>
+                onde o < link_clone > é o link do repositório criado para subir os códigos remotamente. 
+              </p>
             </div>
-
-            <div class="comando1">
-                <div class="descricao1">3. Colocar texto</div>
-                <div class="descricao1img"><img src="../../assets/images/temp.png" alt=""></div>
+          </div>
+          <hr />
+          <div class="comando1">
+            <div class="descricao1">
+              <div class="code">
+                <span>$</span> <span class="git">git</span> add .
+              </div>
             </div>
-
-            <div class="comando1">
-                <div class="descricao1">4. Colocar texto</div>
-                <div class="descricao1img"><img src="../../assets/images/temp.png" alt=""></div>
+            <div class="command-desc">
+              <p>
+                Assim que feito o 
+                <div class="code">
+                  <strong><span>$</span> <span class="git">git</span> clone</strong> |
+                  <strong><span>$</span> <span class="git">git</span> init</strong>
+                </div>
+                Você estará aberto para desenvolver o que for necessário dentro dos seu reposítório local!
+              </p>
+              <p>
+                Quando finalizar, adicione todos esses aquivos 
+                <strong>novos ou modificados</strong> ao seu repositório remoto/local
+                <br />
+                O repositório remoto/local é um ambiente em que seu repositório local
+                se "conecta" ao repositório remoto, antes de qualquer tipo de commit ou push.
+              </p>
+              <p>
+                Para adicionar os arquivos, use o 
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> add .
+                </div>
+                E pronto, agora vamos às próximas etapas.
+              </p>
             </div>
-
-            <div class="comando1">
-                <div class="descricao1">5. Colocar texto</div>
-                <div class="descricao1img"><img src="../../assets/images/temp.png" alt=""></div>
+          </div>
+          <hr />
+          <div class="comando1">
+            <div class="descricao1">
+              <div class="code">
+                <span>$</span> <span class="git">git</span> commit<span class="global"> -m</span> "Mensagem exemplo" 
+              </div>
             </div>
-
-            <div class="comando1">
-                <div class="descricao1">6. Colocar texto</div>
-                <div class="descricao1img"><img src="../../assets/images/temp.png" alt=""></div>
+            <div class="command-desc">
+              <p>
+                Para a confirmação da adição dos arquivos ao seu repositório remoto/local, faça um <strong>"commit"</strong>
+                <br />
+                Com o commit, você dará uma mensagem auto-explicativa de todo o trabalho feito até aquele momento.
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> commit<span class="global"> -m</span> "Até o momento, estamos confirmando os arquivos ao repositório remoto/local"
+                </div>
+                O "-m" em conjunto com as aspas duplas determina que você quer colocar uma mensagem no seu commit, sempre é recomendado usar, 
+                pois serve como uma documentação dos arquivos desenvolvidos até agora.
+              </p>
             </div>
+          </div>
+          <hr />
+          <div class="comando1">
+            <div class="command-desc">
+              <p>
+                Finalmente, chegamos ao momento de enviar ao repositório online!
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> push
+                </div>
 
+                Com esse comando, empurramos os nossos arquivos ao repositório online tudo aquilo que adicionamos com o
+                
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> add .
+                  <br />              
+                  <span>$</span> <span class="git">git</span> commit<span class="global"> -m</span> "Mensagem exemplo" 
+                </div>
+
+                Agora, assim que abrirmos o nosso repositório online, já estará tudo salvo lá com segurança!
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="comando1">
+            <div class="descricao1">
+              <div class="code">
+                <span>$</span> <span class="git">git</span> pull 
+              </div>
+            </div>
+            <div class="command-desc">
+              <p>
+                Imaginando que já estamos com o repositório pronto, feito por algum colega,
+                podemos puxar esses arquivos do repositório online através do comando acima.
+              </p>
+              <p>
+                Quando executamos o comando acima, uma cópia do repositório na nossa máquina
+                criando assim um modelo remoto/local onde trabalharemos e seguiremos aquele ritmo de:
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> add .
+                  <br />              
+                  <span>$</span> <span class="git">git</span> commit<span class="global"> -m</span> "Mensagem exemplo" 
+                  <br />
+                  <span>$</span> <span class="git">git</span> push
+                </div>
+              </p>
+            </div>
+          </div>        
         </div>
-
+      </div>
+      <div class="area">
+        <div class="comando">
+          <div class="titulocomando">
+            <div class="code">
+              <span>$</span> <span class="git">git</span> Branch
+            </div>
+          </div>
+          <hr />
+          <div class="comando1">
+            <div class="descricao1">
+              <div class="code">
+                <span>$</span> <span class="git">git</span> branch < nome_branch > 
+              </div>
+            </div>
+            <div class="command-desc">
+              <p>
+                Ao abrirmos uma nova branch, criamos uma nova cópia da master.
+                A partir de um ponto da história determinamos o início de um novo caminho, chamado de <strong>branch</strong>.
+              </p>
+              <p>
+                Nesse caminho, somos livres a seguir com o desenvolvimento, tendo em mente de que precisamos sempre manter esse novo caminho alinhado com a master, nosso caminho principal.
+              </p>
+            </div>
+          </div> 
+          <hr />
+          <div class="comando1">
+            <div class="descricao1">
+              <div class="code">
+                <span>$</span> <span class="git">git</span> checkout < nome_branch > 
+              </div>
+            </div>
+            <div class="command-desc">
+              <p>
+                O <strong>checkout</strong> é o modo de indicarmos ao git que queremos ir pra um outro caminho, independente de qual seja. 
+                <br />
+                Para o exemplo a seguir, você se encontra na master * e quer seguir para uma branch chamada INDEX:
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> checkout INDEX 
+                </div>
+                Fazendo isso, saímos do caminho da master e seguimos para o caminho da INDEX (independente do que esteja sendo desenvolvido lá).
+              </p>
+              <p>
+                Caso esteja trabalhando com um grupo de desenvolvedores, é possível que queira conferir 
+                uma branch, um caminho, de algum de seus colegas de equipe.
+                <br />
+                Para isso, precisa passar para um caminho REMOTO, ou seja, ele não se firma na sua máquina de maneira local, porém você tem acesso e consegue alterar as informações contidas nele.
+                <br />
+                Exemplo, você está no caminho INDEX que está local na sua máquina e deseja passar pra um caminho REMOTO,
+                chamado de FEATURE, de um dos seus colegas.
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> checkout <strong>REMOTES/ORIGIN/</strong>FEATURE
+                </div> 
+                E pronto, o seu acesso será igual remota ou localmente.
+              </p>
+            </div>
+          </div> 
+          <hr />
+          <div class="comando1">
+            <div class="descricao1">
+              <div class="code">
+                <span>$</span> <span class="git">git</span> push <span class="global">--set-upstream</span> origin < nome_branch > 
+              </div>
+            </div>
+            <div class="command-desc">
+              <p>
+                A primeira vez que você cria uma branch, você segue com o caminho normal do <strong>add e commit</strong>, e no momento do push que muda.
+                É necessário adicionar esse branch dentro do repositório online do git.
+                <br />
+                Vamos adicionar a branch que criamos anteriormente, chamada INDEX, ao nosso repositório online :
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> push <span class="global">--set-upstream</span> origin INDEX</nome_branch>
+                </div>
+                Lembrando que para usarmos o push, segue as mesmas regras de <strong>add e commit</strong> :
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> add .
+                  <br />              
+                  <span>$</span> <span class="git">git</span> commit<span class="global"> -m</span> "Mensagem exemplo" 
+                </div>
+              </p>
+            </div>
+          </div> 
+          <hr />
+          <div class="comando1">
+            <div class="descricao1">
+              <div class="code">
+                <span>$</span> <span class="git">git</span> branch <span class="global">-a</span> 
+              </div>
+            </div>
+            <div class="command-desc">
+              <p>
+                Esse comando é para listagem de todas as branchs que seu repositório possue, sejam elas locais ou remotas.
+              </p>
+              <div class="code">
+                <span>$</span> <span class="git">git</span> branch <span class="global">-a</span> 
+                <br />
+                <br />
+                <span class="global">// Saída</span>
+                <br />
+                <br />
+                * <span class="selecionada">INDEX</span> <span class="global">// branch selecionada</span>
+                <br />
+                <span class="normal">master</span> <span class="global">// branch local</span>
+                <br />
+                <span class="remote">remotes/origin/master</span> <span class="global">// branch remota</span>
+                <br />
+                <span class="remote">remotes/origin/FEATURE</span> <span class="global">// branch remota</span>
+              </div>
+            </div>
+          </div> 
+          <hr />
+          <div class="comando1">
+            <div class="descricao1">
+              <div class="code">
+                <span>$</span> <span class="git">git</span> merge < branch >
+              </div>
+            </div>
+            <div class="command-desc">
+              <p>
+                Com o <strong>merge</strong> nós unimos tudo aquilo que foi feito na nossa branch, seja remota/local, à nossa master.
+                Tomando sempre o cuidado para que não haja conflito entre as linhas de código.
+                <br />
+                Caso aconteça um conflito, é necessário arrumar essas linhas de código conflitadas na mão, alterando até que o git reconheça que está ok.
+              </p>
+              <p>
+                Para começarmos a sequência mais delicada das <strong>branchs</strong>, vamos mudar primeiro pra a master, onde iremos fazer nosso merge.
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> checkout master
+                </div>
+                Aqui na master, vamos puxar e unir (merge) os códigos da nossa branch <strong>INDEX</strong> à master.
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> merge INDEX
+                </div>
+              </p>
+              <p>
+                Caso não haja conflitos entre os arquivos, os merge será realizado e
+                assim a única coisa que vamos ter que fazer é o <strong>push</strong> para oficializar, de maneira remota/online o nosso merge entre as branchs.
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> push
+                </div>
+                Feito isso, oficializamos o nosso merge e podemos sair e eliminar essa branch.
+              </p>
+            </div>
+          </div> 
+          <hr />
+          <div class="comando1">
+            <div class="command-desc">
+              <p>
+                Após terminarmos os desenvolvimentos na nossa branch, o que devemos fazer?
+              </p>
+              <p>
+                Muitos dizem que devemos manter as nossas branchs, para entendermos o que fizemos durante aquele caminho, naquele momento da história.
+                Mas realmente precisamos manter? <br />
+                Sim e não; só depende do seu time de devs ou do seu Tech Lead, de qualquer forma, mostraremos como deletar essa branch, de uma vez, de maneira remota e local, com o comando:
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> push origin <span class="global">--delete</span> < nome_branch >
+                </div>
+              </p>
+              <p>
+                Fazendo isso, é excluído do momento da história, aquela branch no local e remoto. <br />
+                Seguinda a ideia dos exemplos acima, já fizemos o merge na branch <strong>INDEX</strong>; agora podemos deletar essa branch do nosso repositório.
+                <div class="code">
+                  <span>$</span> <span class="git">git</span> push origin <span class="global">--delete</span> INDEX
+                </div>
+                Impossibilitando a recuperação desses arquivos pela branch, porém já temos acesso aos mesmos pela master.
+              </p>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="area">
+        <div class="comandos">
+          <div class="titulocomando">Finalmentes</div>
+          <div class="comando1">
+            <div class="descricao1">
+              Com todos esses comandos, já conseguimos copiar um repositório online pra nossa máquina local; podemos alterar e adicionar arquivos no repositório local; <br />
+              Logo depois disso, já adicionamos, "commitamos" e subimos (com o push) ao repositório online; assim como aprendemos a usar as branchs, caminhos diferentes na história, e o merge
+              para unir cada branch à nossa branch principal, que é sempre a master.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-
-
-
-
-
-
-
-
-
     <footer>
-        <div class="fim">By SIX-DEV_TEAM</div>
+      <div class="fim">By SIX-DEV_TEAM</div>
     </footer>
-
-
-
-</body>
-
+  </body>
 </html>
